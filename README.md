@@ -1,0 +1,2 @@
+# my-verdaccio
+NPM local
