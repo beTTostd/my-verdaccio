@@ -1,0 +1,16 @@
+storage: /verdaccio/storage
+auth:
+ htpasswd:
+   file: ./.htpasswd
+packages:
+  '**':
+    access: $all
+    publish: $authenticated
+web:
+  enable: true
+  # title: "NPM"
+  # gravatar: true
+  # sort_packages: "asc"
+  # logo: "logo.png"
+  # primary_color: "#333"
+  
